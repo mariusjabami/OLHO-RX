@@ -17,6 +17,10 @@ while IFS= read -r url; do
         echo -e "\033[35m${url}$1/\033[0m ${status}";
 
      fi
+  
+     if [ $status -ge 400 ] && [ $status -le 499 ]; then
 
+       echo -e "\033[31m${url}$1/\033[31m ${status}";  
 
+     fi
 done < urls.txt
