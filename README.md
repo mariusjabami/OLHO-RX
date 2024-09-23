@@ -27,8 +27,8 @@ Clone o repositório:
 ```bash
 git clone https://github.com/mariusjabami/MSINT-V1.git
 
-## Como usaru
-```bash
+## Como usar
+
 cd MSINT-V1
 chmod +x setup.sh
 ./setup
