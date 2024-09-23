@@ -20,7 +20,7 @@ read name
 echo "";
 
 while IFS= read -r url; do
-      status=$(curl -s -o dev/null -w "%{http_code}" "$url/$name/")
+      status=$(curl -s -o dev/null -w "%{http_code}" "$url/$name/") 
 #      echo "${status}"
      if [ $status -ge 200 ] && [ $status -le 226  ]; then
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sleep 1
 clear
 
 # cores
@@ -16,12 +16,19 @@ show_info() {
     echo -e "${CYAN}=====================================${NC}"
     echo -e "${GREEN}             Informações             ${NC}"
     echo -e "${CYAN}=====================================${NC}"
+    sleep 1 
     echo -e "${YELLOW}Contatos:${NC}"
+    sleep 1
     echo -e "WhatsApp: ${BLUE}+244951932611${NC}"
+    sleep 1
     echo -e "Email: ${BLUE}mariusjabami@gmail.com${NC}"
+    sleep 1
     echo -e "Instagram: ${BLUE}mariusjabami${NC}"
+    sleep 1
     echo -e "Twitter: ${BLUE}mariusjabami${NC}"
+    sleep 1
     echo -e "Telegram: ${BLUE}mariussjabami${NC}"
+
     echo -e "${GREEN}=====================================${NC}"
     echo -e "${YELLOW}Descrição do Projeto:${NC}"
     echo -e "Um projeto feito em tempos livres por diversão,"
