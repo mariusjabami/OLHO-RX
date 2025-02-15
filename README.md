@@ -31,4 +31,4 @@ git clone https://github.com/mariusjabami/MSINT-V1.git
 
 cd MSINT-V1
 chmod +x setup.sh
-./setup
+./setup.sh
